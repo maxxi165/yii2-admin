@@ -1,0 +1,31 @@
+
+#gui-container {
+	width: 100%;
+	height: 75vh;
+}
+.guiNode {
+	stroke-width: 1px;
+}
+.guiNodeRole {
+	fill: rgb(31, 119, 180);
+	stroke: rgb(20, 71, 107);;
+}
+.guiNodePermission {
+	fill: rgb(255, 127, 14);
+	stroke: rgb(195, 97, 11);
+}
+.guiNode text {
+	pointer-events: none;
+	font: 12px sans-serif;
+}
+.guiNode .guiNodeRule {
+	fill: #00ee00;
+	stroke: #00bb00;
+}
+.guiNode text.guiRuleName {
+	fill: #00d900;
+}
+.guiLink {
+	stroke-width: 1.5px;
+	stroke: #aaa;
+}

@@ -69,6 +69,7 @@ class Module extends \yii\base\Module
         'route' => 'Routes',
         'rule' => 'Rules',
         'menu' => 'Menus',
+        'gui' => 'RBAC-GUI',
     ];
     /**
      * @var array 
