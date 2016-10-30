@@ -14,7 +14,7 @@ $this->registerCssFile($url . '/gui.css');
 <h1><?= Html::encode($this->title) ?></h1>
 <div id="gui-container" class="col-xs-12">
 </div>
-<script src="http://d3js.org/d3.v4.js"></script>
+<script src="//d3js.org/d3.v4.js"></script>
 <script language="JavaScript">
     var container = d3.select("#gui-container"),
         width = container.node().getBoundingClientRect().width,
